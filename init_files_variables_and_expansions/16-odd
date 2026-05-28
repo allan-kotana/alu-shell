@@ -1,0 +1,2 @@
+#!/bin/bash
+nl -ba | grep -E "^\s+[13579][0-9]?\s" | cut -f2-
