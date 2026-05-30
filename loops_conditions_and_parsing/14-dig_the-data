@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+awk '{print $1, $9}' loops_conditions_and_parsing/apache-access.log | sort | uniq -c | sort -rn
