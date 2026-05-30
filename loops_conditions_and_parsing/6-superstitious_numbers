@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Displays 1-20 with superstitious messages on 4, 9, and 17
 i=1
 while [ "$i" -le 20 ]; do
     echo "$i"
